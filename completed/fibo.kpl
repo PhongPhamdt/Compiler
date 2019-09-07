@@ -1,0 +1,22 @@
+Program Fibonacci; (* Factorial *)
+   
+Var z : Integer;
+
+Function F(n : Integer) : Integer;
+  Var x : Integer;
+      y : Integer;
+      i : Integer;
+  Begin
+    x := 0;
+    y := 1;
+    for i:= 1 to n Do
+      Begin
+        F := x + y;
+        y := x;
+        x := F;
+      End;
+  End;
+
+Begin
+  z := F;
+End. (* Factorial *)

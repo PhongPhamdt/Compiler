@@ -1,0 +1,10 @@
+Program Example1; (* Example 9 *)
+Var N : Interger;
+    I : Interger;
+    S : Interger;
+Begin
+  N := READI;
+  S := 1;
+  For I:=1 to N do S := S * I;
+  Call WRITEI(S);
+End. (* Example 9 *)

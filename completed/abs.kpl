@@ -1,0 +1,7 @@
+Program abs;
+   
+Var n : Integer;
+    S : Integer;
+Begin
+  S := if n>=0 return n else return -n;
+End.

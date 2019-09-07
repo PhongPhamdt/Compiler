@@ -1,0 +1,10 @@
+Program Example1; (* Example 1 *)
+Var A : string;
+Begin
+ Repeat
+  Begin
+    A := If A = 0 Then A := A + 1 Else A := 10;
+  End
+ Until
+  A > 10
+End. (* Example 1 *)

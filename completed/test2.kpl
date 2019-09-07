@@ -1,0 +1,14 @@
+Program swap; (* Example 1 *)
+  Var A : double;
+      B : double;
+      i : integer;
+  Begin
+    A := -1;
+    B := 1;
+    do 
+      begin 
+        A,B := B,A;
+        i := i + 1 ;
+      end
+    while i > 10 
+End. (* Example 1 *)

@@ -1,0 +1,7 @@
+Program swap; (* Example 1 *)
+  Var A : integer;
+      B : integer;
+      C : integer;
+  Begin
+    A,B := C, sum A, B ,C;
+End. (* Example 1 *)
